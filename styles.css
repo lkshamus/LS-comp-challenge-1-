@@ -1,0 +1,381 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+}
+
+.large-top-box {
+  background-color: #E7D8C4;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+  height: 100%;
+  padding: 3em;
+  width: 100%;
+}
+
+button{
+  background-color: #E7D8C4;
+  border-color: black;
+  margin-right: 1em;
+}
+
+.btn{
+  font-size: 2em;
+  padding: .5em;
+  text-align: center;
+}
+ 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  padding-bottom: .8em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  padding-bottom: .4em;
+}
+
+.profile-txt, .experience, .ed, .blog, .social, .contact2, .port{
+  display: block;
+  font-size: 2em;
+}
+
+.small-top-box {
+  align-items: center;
+  background-color: #5F2519;
+  display: flex;
+  flex-direction: column;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.resume, .contact, .mid3bx, .support, .profile, .administration, .siren {
+  width: 5.5em;
+  height: 5.5em;
+}
+
+.middle-first-box {
+  align-items: center;
+  background-color: #4A5455;
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  height: 100%;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.middle-second-box {
+  align-items: center;
+  background-color: #CFB898;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  height: 100%;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.middle-third-box {
+  align-items: center;
+  background-color: #E7D8C4;
+  display: flex;
+  flex-direction: column;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  height: 100%;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-first-box {
+  align-items: center;
+  background-color: #BB917F;
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-second-box {
+  align-items: center;
+  background-color: #4A5455;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-third-box {
+  align-items: center;
+  background-color: #BB917F;
+  display: flex;
+  flex-direction: column;
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-location, .photo {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 3;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.next-arrow-left {
+  height: 3em;
+  margin-left: 2rem;
+  margin-top: 30rem;
+  position: absolute;
+}
+
+.next-arrow-right {
+  float: right; 
+  height: 3em;
+  margin-left: 37rem;
+  margin-top: 30rem;
+  position: absolute;
+}
+
+.three-dots {
+  height: 2em;
+  margin-left: 35rem;
+  margin-top: 1em;
+  position: absolute;
+
+}
+
+@media (max-width: 1600px){
+.next-arrow-right {
+margin-left: 32rem;
+}
+
+.next-arrow-left {
+  margin-left: 1rem;
+}
+
+.three-dots {
+  margin-left: 32rem;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.profile-txt, .experience, .ed, .blog, .social, .contact2, .port{
+  font-size: 1.5em;
+}
+
+.resume, .contact, .mid3bx, .support, .profile, .administration, .siren {
+  height: 4.2em;
+  width: 4.2em;
+}
+}
+
+
+@media screen and (max-width:1060px) {
+h1{
+  font-size: 1em;
+}
+
+p{
+  font-size: .75em;
+}
+.profile-txt, .experience, .ed, .blog, .social, .contact2, .port{
+  font-size: 1em;
+}
+
+.resume, .contact, .mid3bx, .support, .profile, .administration, .siren {
+  height: 3em;
+  width: 3em;
+}
+.next-arrow-left {
+  margin-left: 1rem;
+  height: 1.8em;
+}
+}
+
+@media (max-width: 1370px){
+p {
+  font-size: 1em;
+  padding-bottom: .4em;
+}
+
+ .next-arrow-right {
+margin-left: 27rem;
+} 
+
+.three-dots {
+  margin-left: 28rem;
+}
+}
+
+
+@media (max-width: 1240px){
+
+.next-arrow-right {
+margin-left: 25rem;
+} 
+
+.next-arrow-left {
+  margin-left: 0.5rem;
+}
+
+.three-dots {
+  margin-left: 25rem;
+}
+}
+
+@media screen and (max-width: 850px) {
+.next-arrow-left {
+  height: .5em;
+  margin-right: 20rem;
+  margin-top: 3rem;
+}
+
+.next-arrow-right {
+  height: .5em;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.large-top-box {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  padding: .5em;
+
+}
+
+.three-dots {
+  height: 1em;
+  margin-left: 4rem;
+  margin-top: -6em;
+}
+
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  height: 100vh;
+}
+
+.image-location, .photo {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+button{
+  margin-right: 1em;
+}
+
+.btn{
+  padding: .5em;
+  font-size: 1em;
+}
+ 
+h1 {
+  font-size: .5em;
+}
+
+p {
+  font-size: .5em;
+}
+
+.profile-txt, .experience, .ed, .blog, .social, .contact2, .port{
+  display: block;
+  font-size: .5em;
+}
+
+.small-top-box {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.resume, .contact, .mid3bx, .support, .profile, .administration, .siren {
+  width: 3em;
+  height: 3em;
+}
+
+.middle-first-box {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.middle-second-box {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.middle-third-box {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.bottom-first-box {
+  background-color: #BB917F;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.bottom-second-box {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.bottom-third-box {
+  display: none;
+}
+
+@media screen and (max-width:930px){
+  
+h1{
+  font-size: .8em;
+}
+
+p{
+  font-size: .5em;
+}
+
+.profile-txt, .experience, .ed, .blog, .social, .contact2, .port{
+  display: block;
+  font-size: .9em;
+}
+
+.resume, .contact, .mid3bx, .support, .profile, .administration, .siren {
+  width: 2.8em;
+  height: 2.8em;
+}
+}
+  
